@@ -104,24 +104,24 @@ header{
 	flex-direction: column;
 	box-shadow: 2px 2px 5px gray;
 	border-radius: 20px;
-	padding: 10px;
 	justify-content: space-between;
 	cursor: pointer;
 	text-decoration: none;
 }
-.card img {
-	height: 200px;
-	object-fit: cover;
-	border-radius: 20px;
-	overflow-x: hidden;
-}
  
 
 .card-portafolio {
-	max-width: 100%;
+	width: 400px;
 	overflow: hidden;
-	border-radius: 0;
-	transition: transform ease-in-out .8s;
+	border-radius: none;
+	transition: transform ease-in-out .3s;
+	height: 400px;
+}
+.card img {
+	max-width: 100%;
+	width: 400px;
+	border-radius: 20px;
+	overflow-x: hidden;
 }
 .card-portafolio:hover {
 	transform: scale(1.2);
